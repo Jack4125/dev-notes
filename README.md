@@ -8,12 +8,11 @@
 - [CSS](/src/css.md)
 - [JavaScript](/src/javascript.md)
 - [React](/src/react.md)
-- [Redux](/src/redux.md)
 - [Progressive Web Applications](/src/pwa.md)
 
 ## Back-end
 
-- [Node/Express](/src/node-express.md)
+- [Node](/src/node.md)
 - [PHP](/src/php.md)
 
 ## Technologies
@@ -25,8 +24,7 @@
 
 ## Other
 
-- [Workflow](/src/workflow.md)
 - [Deployment](/src/deployment.md)
 - [Algorithms](/src/algorithms.md)
-- [Errors](/src/errors.md)
 - [Interview](/src/interview.md)
+- [Errors](/src/errors.md)

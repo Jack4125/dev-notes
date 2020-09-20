@@ -1,8 +1,3 @@
----
-title: "Errors"
-tags: "npm, npx"
----
-
 # Errors
 
 - Arbitrary File Overwrite from Package: tar

@@ -1,8 +1,3 @@
----
-title: "Markdown References"
-tags: "Readme"
----
-
 <p align="center">
   <a href="/">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/" width="60" />

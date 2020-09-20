@@ -1,8 +1,3 @@
----
-title: "HTML"
-tags: "HTML 5"
----
-
 # HTML
 
 [Favicon Generator](https://favicon.io/favicon-generator/)
@@ -12,19 +7,16 @@ tags: "HTML 5"
 - `<q>` and `<blockquote>` for quoting.
 
 - `<abbr>` for abbreviations.  
-  Example: `<p>The <abbr title="World Health Organization">WHO</abbr></p>`
-
-- `<form action="" method="">` - do not forget to include "method".
+  `<p>The <abbr title="World Health Organization">WHO</abbr></p>`
 
 - Entities:
 
-  - `&nbsp;` - Non-Breaking Space  
-    _Prevent two words from being broken up or wrapped to new line_ when page width changes.
+  - `&nbsp;` - Non-Breaking Space prevent two words from being broken up or wrapped to new line\_ when page width changes.
   - `&copy;` - Copyright Symbol
 
 - `<svg>` vs `<canvas>`:
 
-  ![SVG vs Canvas](../../images/svg-canvas.PNG)
+  ![SVG vs Canvas](../images/svg-canvas.PNG)
 
 ## HTML 5
 
@@ -33,6 +25,8 @@ tags: "HTML 5"
 - `<figure>` and `<figcaption>` add description to images.
 
 - Form:
+
+  - Give forms a `method` attribute: `<form action="" method="">`
 
   - `<input type="">` accepts special types like `reset`, `file`, `search`, `tel`, `number`.
 

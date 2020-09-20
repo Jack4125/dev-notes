@@ -1,6 +1,6 @@
 ---
-title: "Deployment"
-tags: "Netlify, Github, Heroku"
+title: 'Deployment'
+tags: 'Netlify, Github, Heroku'
 ---
 
 # Deployment
@@ -69,9 +69,8 @@ Heroku does _NOT_ automatically use `index.html` as entry point, but it does use
 
 ### Dynamic
 
-1. Set up server
-2. Include Heroku specific configurations in application.
-3. Follow Heroku language-specific setup guideline.
+1. Include Heroku specific configurations in application.
+2. Follow Heroku language-specific setup guideline.
 
 ## Errors
 

@@ -1,8 +1,3 @@
----
-title: "CSS"
-tags: "CSS"
----
-
 # CSS
 
 [Convert image to svg for free](https://picsvg.com/)
@@ -20,7 +15,7 @@ Move individual child to right:
 ```css
 .bg-img {
   /* gradient adds a layer of color on top of image */
-  background: radial-gradient(#fff, #000), url("./bg.jpg") no-repeat center;
+  background: radial-gradient(#fff, #000), url('./bg.jpg') no-repeat center;
   background-size: cover;
   /* filter changes the image itself */
   filter: brightness(30%);
@@ -32,7 +27,7 @@ Move individual child to right:
 ```css
 /* Text Color */
 .blue-text {
-  font-family: "Vibur", "Damion", cursive, sans-serif;
+  font-family: 'Vibur', 'Damion', cursive, sans-serif;
   color: rgb(211, 229, 255);
   text-shadow: 1px 5px 2px rgba(2, 0, 31, 0.712), 0 0 45px rgb(80, 83, 255),
     0 0 45px rgb(4, 0, 255), 0 0 4px rgb(192, 235, 255);
@@ -56,9 +51,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "header header"
-    "location map"
-    "weather map";
+    'header header'
+    'location map'
+    'weather map';
   grid-row-gap: 1rem;
 }
 

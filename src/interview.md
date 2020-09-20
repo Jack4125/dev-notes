@@ -1,19 +1,10 @@
----
-title: "Interview"
-tags: "questions"
----
-
 # Interview
 
-# Resume
+- Are you smart?
+- Can you code?
+- "Measurable" results
 
-What recruiters look for:
-
-1. Are you smart?
-2. Can you code?
-3. "Measurable" results
-
-## Interview Questions
+## Interview
 
 - S.A.R (Situation, Action, Response)
 
@@ -37,19 +28,13 @@ What recruiters look for:
 
   > "By examining the most common user behavior and applying the Rabin-Karp algorithm, I designed a new algorithm to reduce search from O(n) to O(log n) in 90% of cases. I can go into more details if you’d like."
 
-### Personal
-
-![Behavioral Questions](/src/images/bahavior-questions.png)
-
-### Technical
-
 - You’re not done until the interviewer says that you’re done!
 
   > When you come up with an algorithm, start thinking about the problems accompanying it. When you write code, start trying to find bugs. If you’re anything like the other 110 candidates that I’ve interviewed, you probably made some mistakes.
 
-- ![Essential Algorithms](/src/images/essential-algs.png)
+- ![Essential Algorithms](../images/essential-algs.png)
 
-- ![solve-problems](/src/images/solve-problems.png)
+- ![solve-problems](../images/solve-problems.png)
 
 - Test edge cases (0, negative, null, maximums, etc.) and User errors (wrong input type)
 

@@ -1,8 +1,4 @@
----
-title: "Promise"
-date: "2020-08-23"
-description: "JavaScript Promises"
----
+# Promise
 
 ```js
 /*
@@ -14,20 +10,20 @@ description: "JavaScript Promises"
 let myPromise = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve("Yay, I resolved!")
-    }, 1000)
-  })
-}
+      resolve('Yay, I resolved!');
+    }, 1000);
+  });
+};
 
 // const noAwait = async () => {
 async function noAwait() {
-  let value = myPromise()
-  console.log(value)
+  let value = myPromise();
+  console.log(value);
 }
 
 async function yesAwait() {
-  let value = await myPromise()
-  console.log(value)
+  let value = await myPromise();
+  console.log(value);
 }
 
 /*
@@ -50,8 +46,8 @@ value to the variable resolvedValue. Then we log resolvedValue to the
 console. We’re able to handle the logic for a promise in a way that reads 
 like synchronous code. 
 */
-noAwait() // Prints: Promise { <pending> }
-yesAwait() // Prints: Yay, I resolved!
+noAwait(); // Prints: Promise { <pending> }
+yesAwait(); // Prints: Yay, I resolved!
 
 /*
 Without the await keyword, 
@@ -80,25 +76,25 @@ function nativePromiseVersion() {
    * That's why it's a promise, so we have to chain .then()
    */
   returnsFirstPromise()
-    .then(firstValue => {
-      console.log(firstValue)
-      return returnsSecondPromise(firstValue)
+    .then((firstValue) => {
+      console.log(firstValue);
+      return returnsSecondPromise(firstValue);
     })
-    .then(secondValue => {
-      console.log(secondValue)
-    })
+    .then((secondValue) => {
+      console.log(secondValue);
+    });
 }
 
 // Async Await Syntax
 async function asyncAwaitVersion() {
   try {
-    let firstValue = await returnsFirstPromise()
-    console.log(firstValue)
-    let secondValue = await returnsSecondPromise(firstValue)
-    console.log(secondValue)
+    let firstValue = await returnsFirstPromise();
+    console.log(firstValue);
+    let secondValue = await returnsSecondPromise(firstValue);
+    console.log(secondValue);
   } catch (err) {
     // Catches any errors in the try block
-    console.log(err)
+    console.log(err);
   }
 }
 
@@ -110,15 +106,15 @@ But what if our async function contains multiple promises which
 are not dependent on the results of one another to execute?
 */
 async function waiting() {
-  const firstValue = await firstAsyncThing()
-  const secondValue = await secondAsyncThing()
-  console.log(firstValue, secondValue)
+  const firstValue = await firstAsyncThing();
+  const secondValue = await secondAsyncThing();
+  console.log(firstValue, secondValue);
 }
 
 async function concurrent() {
-  const firstPromise = firstAsyncThing()
-  const secondPromise = secondAsyncThing()
-  console.log(await firstPromise, await secondPromise)
+  const firstPromise = firstAsyncThing();
+  const secondPromise = secondAsyncThing();
+  console.log(await firstPromise, await secondPromise);
 }
 
 /*
@@ -156,9 +152,9 @@ async function asyncPromAll() {
     asyncTask2(),
     asyncTask3(),
     asyncTask4(),
-  ])
+  ]);
   for (let i = 0; i < resultArray.length; i++) {
-    console.log(resultArray[i])
+    console.log(resultArray[i]);
   }
 }
 

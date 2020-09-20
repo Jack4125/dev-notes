@@ -1,0 +1,1 @@
+- content script reloads only on refresh. NOT on change of url through links
