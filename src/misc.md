@@ -8,6 +8,10 @@
 
 [Regular Expression tester](https://regex101.com/)
 
+## Mongo Atlas
+
+Url string default `<dbname>` is "test" by default
+
 ## VS Code
 
 Encoding for other language characters:

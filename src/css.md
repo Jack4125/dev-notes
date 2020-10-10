@@ -2,6 +2,10 @@
 
 [Convert image to svg for free](https://picsvg.com/)
 
+## Design
+
+https://uidesigndaily.com/
+
 ## Code Snippets
 
 ### Flexbox:
@@ -9,6 +13,20 @@
 Move individual child to right:
 
 > `margin-left: auto;`
+
+### Full page scroll
+
+```css
+.container {
+  max-height: 100vh;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.children {
+  scroll-snap-align: start;
+}
+```
 
 ### background-image url()
 
@@ -19,6 +37,29 @@ Move individual child to right:
   background-size: cover;
   /* filter changes the image itself */
   filter: brightness(30%);
+}
+```
+
+### scrollbar styling
+
+```css
+.content {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #90a4ae #cfd8dc;
+}
+
+.content::-webkit-scrollbar {
+  width: 10px;
+  height: 50px;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: #90a4ae;
+  border-radius: 5px;
+}
+.content::-webkit-scrollbar-track {
+  background: #cfd8dc;
 }
 ```
 
@@ -50,6 +91,7 @@ Move individual child to right:
 body {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     'header header'
     'location map'

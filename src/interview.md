@@ -4,6 +4,27 @@
 - Can you code?
 - "Measurable" results
 
+## Practice
+
+https://leetcode.com/
+
+## Book
+
+Bible - [Cracking the coding interview](www.google.com)
+
+## Questions
+
+1. What is the difference btw let and var?
+2. What is prototype in javascript?
+3. What is a closure?
+4. Explain the event loop in node.js?
+5. What is the meaning of the keyword this in javascript?
+6. What is node.js?
+7. What is the difference btw null and undefined?
+8. Explain settimeout in javascript?
+9. What is the difference btw javascript and node.js?
+10. Explain what is promise and what is a callback?
+
 ## Interview
 
 - S.A.R (Situation, Action, Response)
@@ -46,3 +67,7 @@
 
 - For developers in my position, what percentage of their day is spent on coding, meetings, interacting with other developers.
 - I'm interested in backend development. Are there opportunities in this company to work with or in backend teams.
+
+## Testimonies
+
+> getting the right answer, and I thought I didn't get the job. However, the next day, I got a phone call and received glowing reviews. I asked my boss why I was hired despite that I didn't get all the answers. He said I was very friendly, honest, and was capable of saying, "I don't know," instead of trying to bullshit them. They didn't just care what I knew, but also what my potential was and how well my personality fits with their culture. So, the interview process being "human" was certainly right in my case.

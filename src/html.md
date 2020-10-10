@@ -22,6 +22,13 @@
 
 - `<picture>` - dynamic image rendering depending on screen size.
 
+```html
+<picture>
+  <source media="(min-width: 600px)" srcset="/images/pic-large.jpg" />
+  <img src="/images/pic-small.jpg" alt="" />
+</picture>
+```
+
 - `<figure>` and `<figcaption>` add description to images.
 
 - Form:
