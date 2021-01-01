@@ -8,6 +8,11 @@
 
 [Regular Expression tester](https://regex101.com/)
 
+# Gatsby
+
+When linking to images, extension 'name.png' and 'name.PNG' are DIFFERENT.
+Capitalization must match for source to be loaded properly.
+
 ## Mongo Atlas
 
 Url string default `<dbname>` is "test" by default

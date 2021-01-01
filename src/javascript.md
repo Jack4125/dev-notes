@@ -12,6 +12,15 @@
 - 1 Special Type: Object
 - Primitives are copied directly. Objects are copied _by reference_ (address in memory).
 
+- Array Methods
+
+slice <==> filter, map
+splice <==> forEach
+
+- String Method
+
+split <==> just split string, not related to Array methods
+
 ## `var` `const` `let`
 
 - `var` is function scoped. When in loops, it would go outside the loop's scope to the functional scope. Most computer languages don't work this way. This is why you should always put everything in IFFEs if you user `var`, because declarations would get attached to "Window" or "Global" objects.
